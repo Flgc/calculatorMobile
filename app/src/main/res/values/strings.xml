@@ -2,4 +2,9 @@
     <string name="app_name">Calculator</string>
     <string name="title">Welcome to Our App</string>
     <string name="enter">Enter</string>
+    <string name="calculator_mobile">Calculator Mobile</string>
+    <string name="sum_of_the_numbers">Sum of the Numbers</string>
+    <string name="subtraction_of_numbers">Subtraction of Numbers</string>
+    <string name="multiplication_of_numbers">Multiplication of Numbers</string>
+    <string name="division_of_numbers">Division of Numbers</string>
 </resources>
