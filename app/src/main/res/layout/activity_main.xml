@@ -22,15 +22,15 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome to Our App"
+            android:text="@string/title"
             android:textAlignment="center"
             android:textSize="48sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btEnter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Enter" />
+            android:text="@string/enter" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
