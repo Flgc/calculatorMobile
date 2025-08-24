@@ -28,7 +28,7 @@
             android:textSize="34sp" />
 
         <EditText
-            android:id="@+id/etFirstNumber"
+            android:id="@+id/etDistance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -37,7 +37,7 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/etSecondNumber"
+            android:id="@+id/etPricePerLiter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -46,14 +46,14 @@
             android:inputType="number" />
 
         <Button
-            android:id="@+id/btCalculate"
+            android:id="@+id/btCalculateTrip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:text="Calcule" />
 
         <Button
-            android:id="@+id/btBack"
+            android:id="@+id/btBackHome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"

@@ -31,6 +31,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/enter" />
+            android:text="@string/calculator" />
+
+        <Button
+            android:id="@+id/btTrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/trip" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

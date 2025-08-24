@@ -7,4 +7,6 @@
     <string name="subtraction_of_numbers">Subtraction of Numbers</string>
     <string name="multiplication_of_numbers">Multiplication of Numbers</string>
     <string name="division_of_numbers">Division of Numbers</string>
+    <string name="calculator">Calculator</string>
+    <string name="trip">Trip</string>
 </resources>

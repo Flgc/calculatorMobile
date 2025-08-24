@@ -33,7 +33,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(homeScreen);
                 finish();
             }
-        });
+        }
+        );
 
+        /* Button to navigate to the fourth screen - tripCalculator */
+        Button btTrip = findViewById(R.id.btTrip);
+        btTrip.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View v) {
+                                           Intent tripScreen = new Intent(MainActivity.
+                                                   this, TripCalculatorActivity.class);
+                                           startActivity(tripScreen);
+                                           finish();
+                                       }
+                                   }
+        );
     }
 }
