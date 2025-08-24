@@ -41,13 +41,13 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         Intent screenCalculator = new Intent(HomeActivity.this, CalculatorActivity.class);
         if (view.getId() == R.id.btCalculate){
-            screenCalculator.putExtra("operation", "makeTheSum");
+            screenCalculator.putExtra("operation", "Make The Sum");
         } else if (view.getId() == R.id.btDivision) {
-            screenCalculator.putExtra("operation", "makeTheDivision");
+            screenCalculator.putExtra("operation", "Make The Division");
         } else if (view.getId() == R.id.btMultiplication){
-            screenCalculator.putExtra("operation", "makeTheMultiplication");
+            screenCalculator.putExtra("operation", "Make The Multiplication");
         } else if (view.getId() == R.id.btBack) {
-            screenCalculator.putExtra("operation", "makeTheSubtraction");
+            screenCalculator.putExtra("operation", "Make The Subtraction");
         }
 
         startActivity(screenCalculator);
