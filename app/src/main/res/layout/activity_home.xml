@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
@@ -28,14 +28,14 @@
             android:textSize="34sp" />
 
         <Button
-            android:id="@+id/btSum"
+            android:id="@+id/btCalculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/sum_of_the_numbers" />
 
         <Button
-            android:id="@+id/btSubtraction"
+            android:id="@+id/btBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
