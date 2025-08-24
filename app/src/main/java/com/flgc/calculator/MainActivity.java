@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                                        @Override
                                        public void onClick(View v) {
                                            Intent tripScreen = new Intent(MainActivity.
-                                                   this, TripCalculatorActivity.class);
+                                                   this, CalculatorTripActivity.class);
                                            startActivity(tripScreen);
                                            finish();
                                        }

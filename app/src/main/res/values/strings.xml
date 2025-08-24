@@ -9,4 +9,17 @@
     <string name="division_of_numbers">Division of Numbers</string>
     <string name="calculator">Calculator</string>
     <string name="trip">Trip</string>
+    <string name="calcule">Calcule</string>
+    <string name="back">Back</string>
+    <string name="enter_the_second_number">Enter the Second Number</string>
+    <string name="enter_the_first_number">Enter the First Number</string>
+    <string name="Calcule">Calcule</string>
+    <string name="Back">Back</string>
+    <string name="calculate">Calculate</string>
+    <string name="calculete">Calculete</string>
+    <string name="Calculate">Calculate</string>
+    <string name="third_enter_the_average_kilometers_per_liter">Third, enter the average kilometers per liter</string>
+    <string name="second_enter_price_per_liter_of_fuel">Second, enter price per liter of fuel</string>
+    <string name="first_enter_the_distance">First, enter the distance</string>
+    <string name="calculate_your_trip">Calculate Your Trip</string>
 </resources>

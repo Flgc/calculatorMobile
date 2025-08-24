@@ -25,39 +25,42 @@
             android:layout_marginBottom="20dp"
             android:text="Title"
             android:textAlignment="center"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/etDistance"
+            android:id="@+id/etFirstNumber"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginBottom="20dp"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Enter the First Number"
+            android:hint="@string/enter_the_first_number"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/etPricePerLiter"
+            android:id="@+id/etSecondNumber"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginBottom="20dp"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Enter the Second Number"
+            android:hint="@string/enter_the_second_number"
             android:inputType="number" />
 
         <Button
-            android:id="@+id/btCalculateTrip"
+            android:id="@+id/btCalculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Calcule" />
+            android:text="@string/calculate" />
 
         <Button
-            android:id="@+id/btBackHome"
+            android:id="@+id/btBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Back" />
+            android:text="@string/Back" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

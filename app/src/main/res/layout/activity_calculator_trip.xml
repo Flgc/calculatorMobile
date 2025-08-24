@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CalculatorActivity">
+    tools:context=".CalculatorTripActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -23,53 +23,56 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Calculate Your Trip "
+            android:text="@string/calculate_your_trip"
             android:textAlignment="center"
             android:textSize="34sp" />
 
         <EditText
             android:id="@+id/etDistance"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginBottom="20dp"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="First, enter the distance"
+            android:hint="@string/first_enter_the_distance"
             android:inputType="number"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/etPricePerLiter"
+            android:id="@+id/etPricePerLiterFuel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginBottom="20dp"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Second, enter price per liter of fuel"
+            android:hint="@string/second_enter_price_per_liter_of_fuel"
             android:inputType="number"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/etAverangeKilometers"
+            android:id="@+id/etAverageKilometersPerLiter"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginBottom="20dp"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Third, enter the average kilometers per liter"
+            android:hint="@string/third_enter_the_average_kilometers_per_liter"
             android:inputType="number"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/btCalculateTrip"
+            android:id="@+id/btCalculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Calcule" />
+            android:text="@string/Calculate" />
 
         <Button
-            android:id="@+id/btBackHome"
+            android:id="@+id/btBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Back" />
+            android:text="@string/back" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

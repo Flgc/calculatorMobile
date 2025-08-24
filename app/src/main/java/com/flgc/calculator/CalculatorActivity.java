@@ -28,10 +28,10 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
             return insets;
         });
 
-        Button btBack = findViewById(R.id.btBackHome);
+        Button btBack = findViewById(R.id.btBack);
         btBack.setOnClickListener(this);
 
-        Button btCalculate = findViewById(R.id.btCalculateTrip);
+        Button btCalculate = findViewById(R.id.btCalculate);
         btCalculate.setOnClickListener(this);
 
         TextView tvTitle = findViewById(R.id.tvTitle);
@@ -43,16 +43,16 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.btCalculateTrip){
+        if (view.getId() == R.id.btCalculate){
             toCalculator();
-        } else if (view.getId() == R.id.btBackHome) {
+        } else if (view.getId() == R.id.btBack) {
             finish();
         }
     }
 
     private void toCalculator(){
-        EditText etNumberOne = findViewById(R.id.etDistance);
-        EditText etNumberTwo = findViewById(R.id.etPricePerLiter);
+        EditText etNumberOne = findViewById(R.id.etFirstNumber);
+        EditText etNumberTwo = findViewById(R.id.etSecondNumber);
 
         int n1 = Integer.parseInt(etNumberOne.getText().toString());
         int n2 = Integer.parseInt(etNumberTwo.getText().toString());

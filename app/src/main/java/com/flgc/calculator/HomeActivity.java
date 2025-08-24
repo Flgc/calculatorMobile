@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             return insets;
         });
 
-        Button btSum = findViewById(R.id.btCalculateTrip);
+        Button btSum = findViewById(R.id.btSum);
         btSum.setOnClickListener(this);
 
         Button btMultiplication = findViewById(R.id.btMultiplication);
@@ -33,21 +33,21 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Button btDivision = findViewById(R.id.btDivision);
         btDivision.setOnClickListener(this);
 
-        Button btSubtraction = findViewById(R.id.btBackHome);
+        Button btSubtraction = findViewById(R.id.btSubtraction);
         btSubtraction.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         Intent screenCalculator = new Intent(HomeActivity.this, CalculatorActivity.class);
-        if (view.getId() == R.id.btCalculateTrip){
-            screenCalculator.putExtra("operation", "Make The Sum");
+        if (view.getId() == R.id.btSum){
+            screenCalculator.putExtra("Operation", "Make The Sum");
         } else if (view.getId() == R.id.btDivision) {
-            screenCalculator.putExtra("operation", "Make The Division");
+            screenCalculator.putExtra("Operation", "Make The Division");
         } else if (view.getId() == R.id.btMultiplication){
-            screenCalculator.putExtra("operation", "Make The Multiplication");
-        } else if (view.getId() == R.id.btBackHome) {
-            screenCalculator.putExtra("operation", "Make The Subtraction");
+            screenCalculator.putExtra("Operation", "Make The Multiplication");
+        } else if (view.getId() == R.id.btSubtraction) {
+            screenCalculator.putExtra("Operation", "Make The Subtraction");
         }
 
         startActivity(screenCalculator);
